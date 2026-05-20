@@ -1,6 +1,6 @@
 # AirSpace
 
-AirSpace is a Spring Boot-based backend application for an airspace/property booking platform. It provides REST APIs, authentication, booking management, email/OTP flows, and integration with MongoDB, WebSocket, RabbitMQ, and Spring Security.
+AirSpace is a Spring Boot-based backend application for an nearby PG/Hostel vacant rooms/beds booking platform. It provides REST APIs, authentication, booking management, email/OTP flows, and integration with MongoDB, WebSocket, RabbitMQ, and Spring Security.
 
 ## Key Features
 
