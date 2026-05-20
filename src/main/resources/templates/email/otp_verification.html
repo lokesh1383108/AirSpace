@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #f6f9fc; padding: 20px; }
+        .container { max-width: 500px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; text-align: center; color: white; }
+        .content { padding: 30px; text-align: center; }
+        .otp-code { font-size: 42px; font-weight: bold; color: #1a56db; letter-spacing: 8px; margin: 25px 0; padding: 15px; background: #f3f4f6; border-radius: 8px; font-family: 'Courier New', monospace; }
+        .warning { background: #fef3cd; border: 1px solid #fde68a; padding: 15px; border-radius: 6px; margin: 20px 0; }
+        .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #666; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" >
+            <h1>Verification Code <span th:text= "${purpose}"></span>. </h1>
+        </div>
+        
+        <div class="content">
+            <h2>Hello <span th:text="${userName}">User</span>,</h2>
+            <p>Please use the following verification code to complete your action:</p>
+            
+            <div class="otp-code" th:text="${otp}">000000</div>
+            
+            <div class="warning">
+                <strong>⚠️ Important:</strong> 
+                <p>Do not share this code with anyone.</p>
+                <p>Otp will expire in: <span th:text= "${expiryMinutes}"> </span> Minutes.</p>
+            </div>
+            
+            <p>If you didn't request this code, please ignore this email.</p>
+        </div>
+        
+        <div class="footer">
+            <p>AirSpace Security Team</p>
+            <p>This is an automated message. Please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+2026-03-01T17:10:25.229Z [INFO] ----------------------invoke redirect_to_upgrade_agent----------------------
+2026-03-01T17:10:25.230Z [INFO] [Tool.invoke]({name: redirect_to_upgrade_agent, input: {
+  "originalPrompt": "upgrade Spring Framework to 6.2",
+  "projectPath": "c:\\Users\\1383l\\OneDrive\\Desktop\\Airspace 2\\AirSpace"
+}}).
+2026-03-01T17:10:25.231Z [INFO] [Tool.invoke] do invoke.
+2026-03-01T17:10:25.231Z [INFO] [RedirectToUpgradeAgentTool] Redirecting to custom agent "modernize-java-upgrade" with prompt: upgrade Spring Framework to 6.2
+2026-03-01T17:10:25.380Z [INFO] [RedirectToUpgradeAgentTool] Redirected to custom agent "modernize-java-upgrade". User MUST switch to the new agent to continue.
+2026-03-01T17:10:25.381Z [INFO] [Tool.invoke]({result: {
+  "message": "The upgrade request has been redirected to the \"modernize-java-upgrade\" agent in a new chat session. You MUST! stop processing in this session.",
+  "result": {
+    "redirected": true,
+    "agentName": "modernize-java-upgrade",
+    "prompt": "upgrade Spring Framework to 6.2"
+  }
+}}).
+2026-03-01T17:10:25.392Z [INFO] ----------------------invoked redirect_to_upgrade_agent----------------------

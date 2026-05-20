@@ -1,0 +1,176 @@
+2025-07-23 00:12:50 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 23.0.1 with PID 34808 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:12:50 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:12:50 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:12:53 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:12:54 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:20:46 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 5824 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:20:46 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:20:46 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:20:49 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:20:49 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:26:45 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 38476 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:26:45 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:26:45 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:26:48 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:26:48 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:27:02 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 3112 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:27:02 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:27:02 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:27:05 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:27:05 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:32:56 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 4780 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:32:56 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:32:56 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:33:02 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:33:02 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:43:54 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 36060 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:43:54 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:43:54 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:43:57 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:43:57 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:53:57 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 29148 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:53:57 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:53:57 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:54:01 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:54:01 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2025-07-23 00:54:29 INFO  c.e.a.AirSpace.AirSpaceApplication - Starting AirSpaceApplication using Java 22.0.2 with PID 23252 (C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace\target\classes started by 1383l in C:\Users\1383l\OneDrive\Desktop\Airspace 2\AirSpace)
+2025-07-23 00:54:29 DEBUG c.e.a.AirSpace.AirSpaceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-23 00:54:29 INFO  c.e.a.AirSpace.AirSpaceApplication - The following 1 profile is active: "dev"
+2025-07-23 00:54:33 ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'tokenProvider': Error creating bean with name 'jwtTokenProvider': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.airspace.AirSpace.repositories.UserRepository defined in @EnableMongoRepositories declared on AirSpaceApplication: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+2025-07-23 00:54:33 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.airspace.AirSpace.service.UserDetailService required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
